@@ -1,0 +1,74 @@
+[
+  {
+    "id": "coinget-wall",
+    "title": "シルエットコインたたき",
+    "desc": "カメラに映った自分の影がプレイヤーになり、落ちてくるコインを弾き飛ばす60秒タイムアタック。",
+    "tags": ["📷 カメラ操作", "⏱️ タイムアタック"],
+    "url": "https://pa314960-prog.github.io/kaken.coinget.wall/",
+    "thumb": "assets/thumbs/coinget-wall.svg"
+  },
+  {
+    "id": "kazi-cam",
+    "title": "大海原を操れ！魔法の操舵輪",
+    "desc": "手をかざして傾けると操舵輪が回転。船の進路を変えて迫りくる岩をよけよう。難易度3段階。",
+    "tags": ["📷 カメラ操作", "🧭 アクション"],
+    "url": "https://pa314960-prog.github.io/kaken.kazi.cam/",
+    "thumb": "assets/thumbs/kazi-cam.svg"
+  },
+  {
+    "id": "kaizoku-bakuhatu",
+    "title": "爆弾ボールゲーム",
+    "desc": "壁に向かってボールを投げ、画面上の爆弾に当てると爆発エフェクト。プロジェクター投影向け。",
+    "tags": ["📷 カメラ操作", "💥 アクション"],
+    "url": "https://pa314960-prog.github.io/kaken.kaizoku.bakuhatu/",
+    "thumb": "assets/thumbs/kaizoku-bakuhatu.svg"
+  },
+  {
+    "id": "kaken1web",
+    "title": "Hand Gesture Effects",
+    "desc": "Webカメラで手のジェスチャーを認識し、ジェスチャーに応じて画面エフェクトが切り替わるアプリ。",
+    "tags": ["📷 カメラ操作", "✨ エフェクト"],
+    "url": "https://pa314960-prog.github.io/kaken1web/",
+    "thumb": "assets/thumbs/kaken1web.svg"
+  },
+  {
+    "id": "phone-oekaki",
+    "title": "らくがきウォール",
+    "desc": "QRコードからスマホで参加し、描いた絵をリアルタイムで投影ギャラリーに表示するお絵かき企画。",
+    "tags": ["📱 スマホ参加", "🖼️ ギャラリー"],
+    "url": "https://pa314960-prog.github.io/kaken.phone.oekaki/gallery.html",
+    "thumb": "assets/thumbs/phone-oekaki.svg"
+  },
+  {
+    "id": "saga-asagi",
+    "title": "あさぎちゃんの有田焼キャッチ",
+    "desc": "体を左右に動かして、上から落ちてくる有田焼の器をスカートでキャッチするゲーム。",
+    "tags": ["📷 カメラ操作", "🎯 キャッチ"],
+    "url": "https://pa314960-prog.github.io/kaken.saga.asagi/",
+    "thumb": "assets/thumbs/saga-asagi.svg"
+  },
+  {
+    "id": "yubioekaki",
+    "title": "手ぶりお絵かき",
+    "desc": "Webカメラで手の動きを認識して、指先だけで自由に絵を描けるドローイングアプリ。",
+    "tags": ["📷 カメラ操作", "🎨 お絵かき"],
+    "url": "https://pa314960-prog.github.io/kaken.yubioekaki/",
+    "thumb": "assets/thumbs/yubioekaki.svg"
+  },
+  {
+    "id": "kyafi-sousa",
+    "title": "キャッフィーの琵琶湖サバイバル",
+    "desc": "体の左右移動でキャッフィーを操作し、迫りくる網や釣り針を避け続けるエンドレスランナー。",
+    "tags": ["📷 カメラ操作", "🏃 ランナー"],
+    "url": "https://pa314960-prog.github.io/kaken.kyafi.sousa/",
+    "thumb": "assets/thumbs/kyafi-sousa.svg"
+  },
+  {
+    "id": "tiktokeffect",
+    "title": "FACE IN FRAME",
+    "desc": "画面上をランダムに動く枠に、シャッターが切られるまでに顔を入れ続けるフォトゲーム。",
+    "tags": ["📷 カメラ操作", "📸 フォト"],
+    "url": "https://pa314960-prog.github.io/kaken.tiktokeffect/",
+    "thumb": "assets/thumbs/tiktokeffect.svg"
+  }
+]
