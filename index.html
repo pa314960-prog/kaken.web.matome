@@ -14,6 +14,9 @@
   </header>
 
   <main>
+    <div class="toolbar">
+      <button id="add-btn" type="button" class="add-btn">＋ ゲームを追加</button>
+    </div>
     <div id="grid" class="grid" aria-live="polite"></div>
     <p id="empty" class="empty" hidden>ゲームが見つかりませんでした。</p>
   </main>
@@ -22,6 +25,42 @@
     <p>&copy; <span id="year"></span> KAKEN GAMES</p>
   </footer>
 
+  <div id="modal-overlay" class="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <h2 id="modal-title">ゲームを追加</h2>
+      <form id="game-form">
+        <label>
+          タイトル <span class="required">*</span>
+          <input type="text" id="field-title" required maxlength="60">
+        </label>
+        <label>
+          説明
+          <textarea id="field-desc" rows="3" maxlength="200"></textarea>
+        </label>
+        <label>
+          タグ(カンマ区切り、絵文字OK)
+          <input type="text" id="field-tags" placeholder="📷 カメラ操作, 🎯 キャッチ">
+        </label>
+        <label>
+          リンクURL <span class="required">*</span>
+          <input type="url" id="field-url" required placeholder="https://...">
+        </label>
+        <label>
+          サムネイル画像URL(空欄なら自動生成)
+          <input type="text" id="field-thumb" placeholder="https://...">
+        </label>
+        <p id="form-error" class="form-error" hidden></p>
+        <div class="modal-actions">
+          <button type="button" id="modal-cancel" class="btn-secondary">キャンセル</button>
+          <button type="submit" id="modal-save" class="btn-primary">保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
